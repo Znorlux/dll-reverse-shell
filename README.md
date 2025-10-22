@@ -42,7 +42,7 @@ x86_64-w64-mingw32-gcc -shared reverse_shell.c -o DismCore.dll -lws2_32
 
 ## Compatibility
 
-Tested successfully on **Windows 11 (build 26100+)** with **Microsoft Defender (latest version, 2025)**.
+Tested successfully on **Windows 11 24H2 (build 26100)** with **Microsoft Defender (latest version, 2025)**.
 The demonstration works without immediate detection, showing how DLL search order can be exploited for local privilege abuse or lateral movement scenarios.
 
 ## Notes
